@@ -1,8 +1,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-$(call inherit-product-if-exists, vendor/xiaomi/hmnote1w/lcsh92_wet_jb9-vendor.mk)
+$(call inherit-product-if-exists, vendor/cherry/x300/lcsh92_wet_jb9-vendor.mk)
 
-LOCAL_PATH := device/xiaomi/hmnote1w
+LOCAL_PATH := device/cherry/x300
 
 PRODUCT_CHARACTERISTICS := default
 
@@ -155,9 +155,9 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp,adb
 
 PRODUCT_PROPERTY_OVERRIDES := \
-	persist.sys.timezone=Asia/Kolkata \
+	persist.sys.timezone=Asia/Taipei \
 	persist.sys.language=en \
-	persist.sys.country=IN \
+	persist.sys.country=US \
 	ro.telephony.sim.count=2 \
 	ro.allow.mock.location=0 \
 	ro.debuggable=1 \
