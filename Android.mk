@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/xiaomi/hmnote1w
+LOCAL_PATH := device/cherry/x300
 
-ifeq ($(TARGET_DEVICE),hmnote1w)
+ifeq ($(TARGET_DEVICE),x300)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
