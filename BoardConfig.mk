@@ -1,7 +1,7 @@
 # inherit from the proprietary version
--include vendor/xiaomi/hmnote1w/BoardConfigVendor.mk
+-include vendor/cherry/x300/BoardConfigVendor.mk
 
-LOCAL_PATH := device/xiaomi/hmnote1w
+LOCAL_PATH := device/cherry/x300
 
 # board
 TARGET_BOARD_PLATFORM := mt6592
@@ -27,7 +27,7 @@ DONT_DEXPREOPT_PREBUILTS := true
 TARGET_BOOTLOADER_BOARD_NAME := mt6592
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := hmnote1w,lcsh92_wet_jb9
+TARGET_OTA_ASSERT_DEVICE := x300,lcsh92_wet_jb9
 
 # MTK Hardware
 BOARD_HAS_MTK_HARDWARE := true
