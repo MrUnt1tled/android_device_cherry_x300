@@ -1,5 +1,5 @@
 #
-# system.prop for xiaomi hmnote1w
+# system.prop for cherry x300
 #
 service.adb.root=1
 ro.sf.lcd_density=320
