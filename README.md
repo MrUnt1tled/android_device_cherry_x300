@@ -22,7 +22,7 @@ This branch is for building 6.0.x based ROMs.
         
         # source build/envsetup.sh
         
-        # brunch cm_hmnote1w-userdebug
+        # brunch cm_x300-userdebug
 
 * Credits
 
