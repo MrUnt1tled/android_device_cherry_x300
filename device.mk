@@ -1,6 +1,6 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-$(call inherit-product-if-exists, vendor/cherry/x300/lcsh92_wet_jb9-vendor.mk)
+$(call inherit-product-if-exists, vendor/cherry/x300/x300-vendor.mk)
 
 LOCAL_PATH := device/cherry/x300
 
